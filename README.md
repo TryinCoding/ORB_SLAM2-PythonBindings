@@ -1,7 +1,12 @@
 # ORB_SLAM2-PythonBindings
 A python wrapper for ORB_SLAM2, which can be found at [https://github.com/raulmur/ORB_SLAM2](https://github.com/raulmur/ORB_SLAM2).
 This is designed to work with the base version of ORB_SLAM2, with a couple of minimal API changes to access the system output.
-It has been tested on ubuntu 14.04 and 16.04 and built against Python3, although it does not rely on any python3 features.
+
+I modded this code to work in Ubuntu 20.04. It can also be contained in an anaconda environment. 
+OpenCV has to be seperately installed and keep it at Version 3.8. This has to be built seperately.
+
+These bindings are integrated to create a map for [my final maze project](https://github.com/ai4ce/vis_nav_player)
+
 
 ## Installation
 
